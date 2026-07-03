@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+
+    <link rel="stylesheet" href="snakesGame.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <div id="difficultyLevel">Level : 1</div>
+
+    <h3 id="score">Score : 0</h3>
+
+    <h3 id="highScore">High Score : 0</h3>
+
+    <div id="board"></div>
+
+    <div id="gameOver" hidden>
+        Game Over <br>
+        Tap the board to restart
+    </div>
+
+    <button id="playPauseBtn">
+        <i id="icon" class="fa-solid fa-pause"></i>
+    </button>
+    
+    <select id="stageSelect">
+        
+        <option value="classic">classic</option>
+        
+        <option value="box">box</option>
+        
+        <option value="tunnel">tunnel</option>
+        
+        <option value="cross">cross</option>
+        
+        <option value="mage">mage</option> 
+        
+        <option value="bigMage">Big Mage ☠️</option>
+        
+        <option value="windows">Windows ☠️</option>
+        
+    </select>
+    <script src="domElements.js"></script>
+    <script src="audio.js"></script>
+    <script src="board.js"></script>
+    <script src="stage.js"></script>
+    <script src="food.js"></script>
+    <script src="snake.js"></script>
+    <script src="ui.js"></script>
+    <script src="controls.js"></script>
+    <script src="snakeGame.js"></script>
+
+</body>
+</html>

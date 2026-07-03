@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #F8FAFC;
+  color:  #1E293B;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+
+#equation{
+  background-color:  #FFFFFF;
+  border: 2px solid #CBD5E1;
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+  border-radius: 0.5rem;
+}
+
+button{
+  background: linear-gradient(90deg,#00D9FF,#7B2CFF);
+  border: 2px solid #CBD5E1;
+  color: #fff;
+  height: 50px;
+  width: 120px;
+  font-size: 25px;
+  border-radius: 1rem;
+}
+
+#result{
+  background-color: #fff;
+  border: 2px solid #CBD5E1;
+  min-height: 100px;
+  height: auto;
+  border-radius: 1rem;
+}
+
+#buttons{
+  display:flex;
+  gap: 50px;
+}
+
+#steps{
+  min-height: 100px;
+  height: auto;
+  background-color: #fff;
+  border: 2px solid #CBD5E1;
+  border-radius: 1rem;
+}
+
+.output{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    width: 100vw;
+    position: absolute;
+    top: 400px;
+}
+
+#result{
+    width: 80%;
+}
+
+#steps{
+    width: 80%;
+}
